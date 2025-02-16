@@ -16,7 +16,7 @@ function Login() {
     <>
     <div id='selectlogin' className=''>
       <div className='my-15'>
-        <h1 className='text-5xl text-center text-red-800 underline '>Select user type</h1>
+        <h1 className='text-5xl text-center text-red-800'>Select user type</h1>
       </div>
       <div className='flex justify-center gap-3'>
         <Link to={'/login/loginowner'} onClick={handleLogin}>
